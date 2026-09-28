@@ -1,5 +1,5 @@
 <script setup>
-const specialties = ['Vue', 'React', 'Laravel', 'JavaScript', 'Node.js', 'Tailwind CSS']
+const specialties = ['Vue', 'React', 'Laravel', 'Java', 'JavaScript', 'Node.js', 'Tailwind CSS']
 </script>
 
 <template>
