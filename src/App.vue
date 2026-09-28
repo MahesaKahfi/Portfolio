@@ -1,7 +1,27 @@
-<script setup></script>
+<script setup>
+import navbar from './components/navbar.vue'
+import homeSection from './components/homeSection.vue'
+
+const specialties = ['Vue', 'React', 'Laravel', 'JavaScript', 'Node.js', 'Tailwind CSS']
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold text-blue-600">If this is big, bold, and blue, it worked</h1>
+  <navbar />
+  <main>
+    <homeSection />
+    <!-- Placeholder sections until each one is built -->
+    <section id="projects" class="min-h-[50vh] flex items-center justify-center text-ink/40 border-t border-muted/10">
+      Projects section — coming next
+    </section>
+ 
+    <section id="about" class="min-h-[50vh] flex items-center justify-center text-ink/40 border-t border-muted/10">
+      About section — coming next
+    </section>
+ 
+    <section id="contact" class="min-h-[50vh] flex items-center justify-center text-ink/40 border-t border-muted/10">
+      Contact section — coming next
+    </section> 
+  </main>
 </template>
 
 <style scoped></style>
