@@ -23,8 +23,9 @@ const links = [
     </nav>
 
     <a
-      href="/resume.pdf"
-      download
+      href="/CV_MAHESA KAHFI.pdf"
+      target="_blank"
+      rel="noopener"
       class="text-sm px-4 py-2 rounded-md bg-primary text-paper hover:opacity-90 transition-opacity"
     >
       My Resume

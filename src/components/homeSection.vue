@@ -3,7 +3,7 @@ const specialties = ['Vue', 'React', 'Laravel', 'Java', 'JavaScript', 'Node.js',
 </script>
 
 <template>
-  <section id="home" class="min-h-[80vh] flex flex-col items-center justify-center text-center px-6 py-20">
+  <section id="home" class="min-h-[85vh] flex flex-col items-center justify-center text-center px-6 py-20">
     <h1 class="text-3xl sm:text-4xl font-semibold text-ink mb-2">
       Mahesa Kahfi "Mika"
     </h1>

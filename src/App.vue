@@ -1,6 +1,7 @@
 <script setup>
 import navbar from './components/navbar.vue'
 import homeSection from './components/homeSection.vue'
+import projectsSection from './components/projectsSection.vue'
 
 const specialties = ['Vue', 'React', 'Laravel', 'JavaScript', 'Node.js', 'Tailwind CSS']
 </script>
@@ -9,10 +10,7 @@ const specialties = ['Vue', 'React', 'Laravel', 'JavaScript', 'Node.js', 'Tailwi
   <navbar />
   <main>
     <homeSection />
-    <!-- Placeholder sections until each one is built -->
-    <section id="projects" class="min-h-[50vh] flex items-center justify-center text-ink/40 border-t border-muted/10">
-      Projects section — coming next
-    </section>
+    <projectsSection />
  
     <section id="about" class="min-h-[50vh] flex items-center justify-center text-ink/40 border-t border-muted/10">
       About section — coming next
